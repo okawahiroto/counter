@@ -9,22 +9,13 @@
     <script type="text/javascript" src="counter.js"></script>
 </head>
 <body>
-    <h1><p id="count">0</p></h1>
-
-    <input type="button" value="+" id="plus" onclick="plus()" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
-    <br>
-    <br>
-    <input type="button" value="-" id="minus" onclick="minus()" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
-    <br>
-    <br>
-    <input type="button" value="reset" id="reset" onclick="reset()" class="btn btn-secondary active" role="button" aria-pressed="true">
-
-
-
-    <script>
-    </script>
-
-
-
+    <h1><p id="count" class="text-center">0</p></h1>
+    <div class="d-flex flex-column">
+        <input type="button" value="+" id="plus" onclick="plus()" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">
+        <br>
+        <input type="button" value="-" id="minus" onclick="minus()" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">
+        <br>
+        <input type="button" value="reset" id="reset" onclick="reset()" class="btn btn-secondary active" role="button" aria-pressed="true">
+    </div>
 </body>
 </html>
